@@ -8,7 +8,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.io/packages/source/${{ name[0] }}/${{ name }}/pytest-shard-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pytest-shard-${{ version }}.tar.gz
   sha256: b86a967fbfd1c8e50295095ccda031b7e890862ee06531d5142844f4c1d1cd67
 
 build:
