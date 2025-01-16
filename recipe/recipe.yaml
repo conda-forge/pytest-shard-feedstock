@@ -1,6 +1,7 @@
 context:
   name: pytest-shard
   version: 0.1.2
+  python_min: 3.6
 
 package:
   name: ${{ name|lower }}
